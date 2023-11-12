@@ -1,0 +1,98 @@
+@font-face {
+  font-family: MontserratMedium;
+  src: url("../MONTSERRAT-MEDIUM.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: ZapfhumanstBT;
+  src: url("../ZHUM601N.TTF") format("opentype");
+}
+
+body {
+  font-family: MontserratMedium;
+}
+
+.container {
+  max-width: 1140px !important;
+  position: relative;
+}
+.header-buttons button, .header-buttons button:hover, .header-buttons button:visited{
+  background-color: transparent;
+  border:0px solid #fff;
+}
+.header-buttons button img{
+  height: 20px;
+}
+.header-buttons .dropdown-menu{
+  display: block;
+}
+.header-buttons .delete-btn{
+  color:red;
+  margin-right: 10px;
+}
+
+.search {
+  position: relative;
+
+}
+
+.search input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(102, 102, 102);
+  max-width: 240px;
+  width: 60vw;
+}
+
+.search-wrapper{
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  background-color: #fff;
+  z-index: 9999;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 6px;
+}
+
+.card {
+  border: 0px solid #fff;
+}
+
+.card-body {
+  font-family: MontserratMedium !important;
+  padding: 10px 0px !important;
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+.card-subtitle {
+  font-size: 17px;
+}
+
+.footer-header {
+  font-family: ZapfhumanstBT;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-subtitle {
+  font-size: 17px;
+  text-align: center;
+}
+
+.zoom-in-out-box {
+  overflow: hidden;
+}
+
+.zoom-in-out-box img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.zoom-in-out-box:hover img {
+  transform: scale(1.5, 1.5);
+  transition: transform 2s;
+}
